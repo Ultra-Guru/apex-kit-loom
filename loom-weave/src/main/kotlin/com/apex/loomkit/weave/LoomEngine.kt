@@ -5,6 +5,7 @@ import com.apex.loomkit.weave.loop.LoomEnvironmentInfo
 import com.apex.loomkit.weave.loop.LoomEnvironmentSource
 import com.apex.loomkit.weave.loop.LoomFailureClassifier
 import com.apex.loomkit.weave.loop.LoomFailureKind
+import com.apex.loomkit.weave.loop.LoomHeuristicEstimator
 import com.apex.loomkit.weave.loop.LoomLogger
 import com.apex.loomkit.weave.loop.LoomMemory
 import com.apex.loomkit.weave.loop.LoomModelClient
