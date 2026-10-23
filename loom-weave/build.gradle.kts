@@ -36,14 +36,14 @@ mavenPublishing {
         version = project.version.toString(),
     )
     pom {
-        name.set("Apex Loom Kit :: Loom Weave")
+        name.set("Apex Kit Loom :: Loom Weave")
         description.set(
             "Pure-Kotlin weaving agent-loop engine: in-band markup tool protocol, " +
                 "permission triad with workspace boundaries, swarm sub-threads, runtime " +
                 "skill packages and digest compaction for mobile coding workspaces " +
                 "(zero Android deps)"
         )
-        url.set("https://github.com/Ultra-Guru/apex-loom-kit")
+        url.set("https://github.com/Ultra-Guru/apex-kit-loom")
         licenses {
             license {
                 name.set("MIT")
@@ -51,11 +51,11 @@ mavenPublishing {
             }
         }
         developers {
-            developer { id.set("AceGuru-mjh") }
+            developer { id.set("Ultra-Guru") }
         }
         scm {
-            connection.set("scm:git:git@github.com:Ultra-Guru/apex-loom-kit.git")
-            url.set("https://github.com/Ultra-Guru/apex-loom-kit")
+            connection.set("scm:git:git@github.com:Ultra-Guru/apex-kit-loom.git")
+            url.set("https://github.com/Ultra-Guru/apex-kit-loom")
         }
     }
 }

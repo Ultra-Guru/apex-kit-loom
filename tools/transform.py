@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Transform guru-agent loom sources into apex-loom-kit library sources.
+"""Transform guru-agent loom sources into apex-kit-loom library sources (historical migration tool).
 
 Mechanical clean-room relocation: package rename + host-type inversion into
 library-owned Weave* contracts. Behavior-preserving; logic untouched.
@@ -11,7 +11,7 @@ import re
 from pathlib import Path
 
 SRC = Path("/home/z/guru-agent/core/code-engine/src")
-DST = Path("/home/z/apex-loom-kit/loom-weave/src")
+DST = Path("/home/z/apex-kit-loom/loom-weave/src")
 
 # ── Fully-qualified name rewrites (imports AND inline FQNs) ──────────────
 FQN_RULES = [

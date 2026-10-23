@@ -15,5 +15,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "apex-loom-kit"
+rootProject.name = "apex-kit-loom"
 include(":loom-weave")

@@ -1,4 +1,4 @@
-# apex-loom-kit
+# apex-kit-loom
 
 **Pure-Kotlin weaving agent-loop engine**（`com.apex.loomkit:loom-weave`）——
 移动端 Coding 工作区的第三条思考逻辑线「织造」的循环内核。零 Android 依赖，
