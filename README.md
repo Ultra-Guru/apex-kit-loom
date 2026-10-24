@@ -1,13 +1,13 @@
 # apex-kit-loom
 
 **Pure-Kotlin weaving agent-loop engine**（`com.apex.loomkit:loom-weave`）——
-移动端 Coding 工作区的第三条思考逻辑线「织造」的循环内核。零 Android 依赖，
+移动端 Coding 工作区的思考逻辑线之一「织造」（第三线）的循环内核。零 Android 依赖，
 任意 Kotlin JVM 宿主可消费。
 
 > 与宿主 [Ultra-Guru/Android-Guru-Agent](https://github.com/Ultra-Guru/Android-Guru-Agent)
-> 的深潜线（自研七档）/ 标准线（apex-standard-kit 任务循环）并列；
-> 宿主经 [LoomKitAdapter] 以端口-适配器方式接入，三线在 Coding 模式内
-> 任意切换。
+> 的深潜线（自研七档）/ 标准线（apex-kit-standard 任务循环）/ 信使线
+> （apex-kit-courier 驿传调度）并列；宿主经 [LoomKitAdapter] 以端口-
+> 适配器方式接入，四线在 Coding 模式内任意切换。
 
 ## 织造范式（任务完成 = 经纬交织）
 
@@ -63,7 +63,7 @@ engine.execute(WeaveUserInput.text("任务")) // Flow<WeaveEvent>
 |---|---|---|---|
 | 1.0.x | 2.2.21 | 9.8.1 | Android-Guru-Agent（composite build 按坐标替换） |
 
-composite build 要求两侧工具链兼容（同 apex-standard-kit 纪律）：宿主
+composite build 要求两侧工具链兼容（同 apex-kit-standard 纪律）：宿主
 升级 Kotlin / Gradle 后本库必须同步跟进。
 
 ## CI
